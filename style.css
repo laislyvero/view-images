@@ -1,0 +1,54 @@
+/*body{
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    
+    
+}*/
+.container{
+    
+    width: 95vw;
+}
+.panel{
+    height: 5vh;
+    margin: 10px;
+    border-radius: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex: 0.5;
+    position: relative;
+    cursor: pointer;
+    transition: all 1000ms ease-in;
+}
+.panel.active{
+    flex: 5;
+    opacity: 1;
+    height: 70vh;
+}
+.panel.active h2{
+    opacity: 1;
+    transition: opacity 1s ease-in 1.2s;
+}
+.panel h2{
+    position: absolute;
+    bottom: 50px;
+    left: 15px;
+    color: #fff;
+    opacity: 0;
+}
+#image-1{
+    background-image:url(./b6.jpg);
+}
+#image-2{
+    background-image: url(./b5.jpg);
+}
+#image-3{
+    background-image: url(./b8.jpg);
+}
+#image-4{
+    background-image: url(./b7.jpg);
+}
+#image-5{
+    background-image:url(./b4.jpg) ;
+}
